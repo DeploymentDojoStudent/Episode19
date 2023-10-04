@@ -16,6 +16,7 @@ jobs:
 
     - name: Restore NuGet packages
       run: dotnet restore
+      working-directory: ./BeltTest
 
     - name: Run build
       shell: cmd 
